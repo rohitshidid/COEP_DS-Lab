@@ -29,7 +29,7 @@ void readPolynomial(struct Node** poly)
 			temp = temp->next;
 			temp->next = NULL;
 		}
-	}while(cont);
+	}while(count);
 }
 
 void displayPolynomial(struct Node* poly)
